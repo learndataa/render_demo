@@ -9,7 +9,7 @@ df = pd.read_csv('https://raw.githubusercontent.com/learndataa/render_demo/main/
 dfy = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv', on_bad_lines='skip')
 
 # Initialize app
-app = Dash()
+app = Dash(__name__)
 server = app.server
 
 # Layout
