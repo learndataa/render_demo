@@ -9,6 +9,7 @@ dfy = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapm
 
 # Initialize app
 app = Dash()
+server = app.server
 
 # Layout
 app.layout = html.Div(
