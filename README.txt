@@ -1,3 +1,1 @@
-dash==2.6.0
-pandas
-gunicorn
+This is a demo dash app deployed on render.com
