@@ -5,7 +5,7 @@ import plotly.express as px
 
 # Data
 #df = pd.read_csv("/Users/erv/Desktop/python/Dash/data/iris.csv")
-df = pd.read_csv('https://github.com/learndataa/render_demo/blob/main/iris.csv', on_bad_lines='skip')
+df = pd.read_csv('https://raw.githubusercontent.com/learndataa/render_demo/main/iris.csv', on_bad_lines='skip')
 dfy = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv', on_bad_lines='skip')
 
 # Initialize app
