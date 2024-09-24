@@ -1,4 +1,4 @@
-dash==2.x.x  # Choose the latest version of Dash
-Flask==2.x.x  # Choose the latest version of Flask
+dash==2.17.1
+Flask==3.0.3
 pandas
 gunicorn
