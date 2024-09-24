@@ -120,8 +120,5 @@ def update_figure(selected_year):
 # Run app
 if __name__ == "__main__":
     #app.run(debug=True)
-    app.run_server(debug=True)
-
-
-
+    app.run_server(debug=False)
 
