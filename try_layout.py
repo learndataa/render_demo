@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 
-# Data
+# Data for dashboard
 #df = pd.read_csv("/Users/erv/Desktop/python/Dash/data/iris.csv")
 df = pd.read_csv('https://raw.githubusercontent.com/learndataa/render_demo/main/iris.csv', on_bad_lines='skip')
 dfy = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv', on_bad_lines='skip')
